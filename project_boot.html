@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>template_project</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <style>
+.navbar-light .navbar-nav .nav-link{
+        color:rgb(249, 5, 5)
+    }
+    .bg-light {
+          background-color: rgb(21, 19, 19)!important;
+}
+
+
+  .parent{
+            width: 100%;
+            height:600px;
+            border: 2px solid rgb(51, 40, 40);
+            margin:auto;
+            display:flex;
+            justify-content:space-evenly;
+            align-items: center;
+            background-color:rgb(11, 11, 12);
+        }
+
+        
+        .card{
+            border: 2px solid red;
+            width:23%;
+            height: 500px;
+            background-color: black;
+
+        }
+        .card-header{
+            background-color: rgb(10, 9, 9);
+            color: white;
+            text-align: center;
+            padding: 5px;
+            
+        }
+        .card-image img{
+            height: 200px;
+            width: 100%;
+            align-items: center;
+            
+
+        }
+
+        .card-content h2{
+            text-align: center;
+            color: white;
+
+        
+
+            
+        }
+        .card-content ul li {
+            color: white;
+            margin-right: 2px;
+        }
+       .class-button{
+        display: flex;
+        justify-content: center;
+       }
+
+       .class-button button{
+        background-color: red;
+        color: white;
+        padding: 5px;
+        text-align: center;
+       
+        
+
+       }
+    .card i{
+      color:white;
+    }
+
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand fs-2 fw-bold fst-italic text-danger" href="#">Hotwheels</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
+        <li class="nav-item">
+          <a class="nav-link " aria-current="page" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#offer">Offers</a>
+        </li>
+     <li class="nav-item">
+          <a class="nav-link" href="#sell">Sell cars</a>
+        </li>
+     <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+     <li class="nav-item">
+          <a class="nav-link" href="#Enquiry">Enquiry</a>
+        </li>
+      
+      </ul>
+    </div>
+  </div>
+  </nav>
+<!--card car-->
+
+<div class="position-relative bg-dark"id="home">
+    
+        <img src="red car1.jpg" class="w-100" style="height:90vh;object-fit: cover;" ></div>
+        <div class="position-absolute top-50 start-10  p-5 ">
+          <h2 style="color:whitesmoke; font-style:italic;;">Find your perfect cars here</h2>
+          <p style="color: whitesmoke; ">Buy your first ride with us</p>
+                <button class="btn btn-outline-danger fs-5 rounded-pill mt-2 me-2 py-2 px-2">Buy car</button>
+                <button class="btn btn-outline-danger fs-5 rounded-pill mt-2 py-2 px-2">Know more</button>
+        </div>
+            </div>
+        </div>
+
+
+
+
+            </div>
+        </div>
+</div>
+
+
+    </div>
+  </div>
+
+  <!--cars-->
+
+  <div class="parent position-relative pt-5"id="offer">
+    <h2 class="position-absolute top-0 start-50 translate-middle-x text-white fs-1 fw-bold"> Cars on Offer</h2>
+        <div class="card">
+    <div class="card-header fst-italic"> <h1>Outlander</h1></div>
+    <div class="card-image"><img src="OIP.jpg"></div>
+    <div class="card-content"><h2>Starting at just $240000</h2>
+        
+    <ul type="none">
+        <li><i class="fa-solid fa-bookmark"></i>Q series</li>
+        <li><i class="fa-solid fa-bookmark"></i>7/5 seater</li>
+        <li><i class="fa-solid fa-bookmark"></i>Petrol</li>
+        <li><i class="fa-solid fa-bookmark"></i>Automatic</li>
+    </ul> 
+</div>
+    <div class="class-button"><button>learn more </button> </div>
+    </div>
+
+
+    <div class="card">
+    <div class="card-header fst-italic"> <h1>Pajero</h1></div>
+    <div class="card-image"><img src="pajero.jpg"></div>
+    <div class="card-content"><h2>Starting at just $300000</h2>
+        
+    <ul type="none">
+        <li><i class="fa-solid fa-bookmark"></i>SLX series</li>
+        <li><i class="fa-solid fa-bookmark"></i>7/5 seater</li>
+        <li><i class="fa-solid fa-bookmark"></i>Diesel</li>
+        <li><i class="fa-solid fa-bookmark"></i>Automatic/Manual</li>
+    </ul> 
+</div>
+    <div class="class-button"><button>learn more </button> </div>
+    </div>
+
+
+    <div class="card">
+    <div class="card-header fst-italic"> <h1>Landcruiser</h1></div>
+    <div class="card-image"><img src="landcruiser.jpg"></div>
+    <div class="card-content"><h2>Starting at just $350000</h2>
+        
+    <ul type="none">
+        <li><i class="fa-solid fa-bookmark"></i>vx series</li>
+        <li><i class="fa-solid fa-bookmark"></i>7 seater</li>
+        <li><i class="fa-solid fa-bookmark"></i>Petrol/Diesel</li>
+        <li><i class="fa-solid fa-bookmark"></i>Automatic</li>
+    </ul> 
+</div>
+    <div class="class-button"><button>learn more </button> </div>
+    </div>
+    </div>
+
+<!--sell cars-->
+
+
+<div class="container-fluid bg-dark border border-danger p-4 shadow" id="sell">
+
+  <h1 class="text-danger text-center mb-4  fs-1 fw-bold fst-italic text-decoration-underline">Sell cars</h1>
+
+  <form class="ps-3">
+
+
+    <div class="row mb-4 ">
+      <div class="col-md-4 text-danger text-md-end">
+        <label class="form-label fs-5">Enter car model</label>
+      </div>
+      <div class="col-md-4">
+        <input type="text" class="form-control form-control-sm">
+      </div>
+    </div>
+
+
+
+    <div class="row mb-4 ">
+      <div class="col-md-4 text-danger text-md-end">
+        <label class="form-label fs-5">Enter make year</label>
+       </div>
+      <div class="col-md-4">
+        <input type="text" class="form-control form-control-sm">
+      </div>
+    </div>
+
+
+
+
+
+    <div class="row mb-4 align-items-center">
+      <div class="col-md-4 text-danger text-md-end">
+        <label class="form-label fs-5">Total Run</label>
+      </div>
+      <div class="col-md-4">
+        <input type="text" class="form-control form-control-sm">
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="row mb-4">
+      <div class="col-md-4 text-danger text-md-end">
+        <label class="form-label fs-5">Car Image</label>
+       </div>
+      <div class="col-md-4">
+        <input type="file" class="form-control form-control-sm">
+      </div>
+    </div>
+
+
+ <div class="row mt-4">
+      <div class="col-md-12 text-center">
+        <button type="submit" class="btn btn-danger px-4 w-45"> Submit</button>
+      </div>
+    </div>
+
+
+  </form>
+</div>
+
+
+
+
+
+
+
+    <!--About-->
+
+    
+        <div class="container-fluid bg-dark text-white py-5"id="about">
+          <div class="container ">
+            <div class="row align-items-center">
+  <div class="col-md-6 mb-2 mb-md-0 ">
+  <img src="hotwheels.jpg" class="img-fluid rounded w-50" alt="...">
+  </div>
+  <div class="col-md-6" >
+    <h2 class="text-danger">About Us</h2>
+    <p> Hotwheels is a popular car selling and buying platform known for its trust and customer satisfaction,
+      Hotwheels has a wide collection of cars, Hotwheels was estbalished on 2000's.buying, selling, or researching vehicles, parts, and accessories online, with the market projected to reach hundreds of billions in value by 2030, growing at over 15-20% annually.
+    </p>
+    <p> It streamlines the car buying process, offering digital financing, 360-degree views, and home delivery
+    </p>
+  
+<button class="btn btn-outline-danger">View more</button>
+</div>
+  </div>
+            </div>
+            </div>
+          </div>
+
+    
+          <!--contact us-->
+<div class="container-fluid bg-dark border border-danger p-4 shadow" id="Enquiry">
+
+  <h3 class="text-danger text-center mb-4">Enquiry</h3>
+
+  <form class="container">
+
+
+    <div class="row mb-3 align-items-center">
+      <div class="col-md-4 text-danger text-md-end">
+        <label class="form-label">Full Name</label>
+      </div>
+      <div class="col-md-5">
+        <input type="text" class="form-control form-control-sm">
+      </div>
+    </div>
+
+
+    <div class="row mb-3 align-items-center">
+      <div class="col-md-4 text-danger text-md-end">
+        <label class="form-label">Email Address</label>
+      </div>
+      <div class="col-md-5">
+        <input type="email" class="form-control form-control-sm">
+      </div>
+    </div>
+
+  
+    <div class="row mb-3 align-items-center">
+      <div class="col-md-4 text-danger text-md-end">
+        <label class="form-label">Phone</label>
+      </div>
+      <div class="col-md-5">
+       <input type="tel" class="form-control form-control-sm">
+      </div>
+    </div>
+
+   
+    <div class="row mt-4">
+      <div class="col-md-12 text-center">
+        <button type="submit" class="btn btn-danger px-4"> Submit</button>
+      </div>
+    </div>
+
+  </form>
+
+</div>
+
+       </div>
+</div>
+</body>
+</html>
